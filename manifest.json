@@ -1,0 +1,21 @@
+{
+  "name":"Study Buddy",
+  "version": "1.0",
+  "description":"An application designed to reward good study habits.",
+  "background":{
+    "scripts": ["background.js","settings.js"],
+    "persistance":false
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "cookies"
+  ],
+  "browser_action":{
+    "default_popup": "popup.html",
+    "default_icon":"icon.png"
+  },
+  "manifest_version":2
+}

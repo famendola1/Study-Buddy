@@ -1,0 +1,87 @@
+body {
+	background-color: #EDFBFF
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#timeStudied, #procrast, #points {
+	font-family: 'Varela Round', sans-serif;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+th {
+	font-size: 18px;
+    padding: 10px;
+}
+
+td {
+		font-size: 15px;
+		padding: 15px;
+	}
+
+#set {
+	font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    color: purple;
+}
+
+#pic {
+    width: 400px;
+}
+
+#sites {
+    border: 2px solid;
+}
+#set {
+    text-decoration: none;
+}
+#settings:hover {
+    color: red;
+}
+#sites, #pointer {
+    border: 1px solid;
+    border-radius: 2px;
+}
+#pointer:focus {
+    border-color: rgba(229, 103, 23, 0.8);
+    /*box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);*/
+    outline: 0 none;
+}
+#sites:focus {
+    border-color: rgba(229, 103, 23, 0.8);
+    /*box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);*/
+    outline: 0 none;
+}
+#time {
+    font-size: 30px;
+}
+textarea {
+    resize: none;
+}
+#mainSettings {
+    padding: 5px;
+    background-color: #EDFBFF;
+}
+#back {
+    text-decoration: none;
+}
+#back:hover {
+    color: red;
+}
+#saveIt {
+    background-color: #555E99;
+    /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
